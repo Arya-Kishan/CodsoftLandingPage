@@ -9,10 +9,12 @@ function handleNav() {
 
 gsap.from(".logobox", {
     y: -100,
+    duration:1,
 })
 gsap.from(".hashbox", {
     opactiy: 0,
     y: -100,
+    duration:1,
 })
 
 gsap.from(".pic", {
@@ -45,4 +47,14 @@ gsap.from(".voucher3", {
     y: 100,
     opactiy: 0,
     duration: .5,
+})
+gsap.from(".bigpic1", {
+    y: 50,
+    autoAlpha:0,
+    duration: 1,
+})
+gsap.from(".bigpic2", {
+    y: -50,
+    autoAlpha:0,
+    duration: 1,
 })
